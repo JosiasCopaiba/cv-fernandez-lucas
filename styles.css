@@ -1,7 +1,7 @@
 :root {
 
 --color-menu: #1e2a38;
-
+--color-link-footer: #00c3ff;
 }
 
 *{
@@ -136,7 +136,7 @@ color:white;
 }
 
 .footer a{
-color:#00c3ff;
+color:var(--color-link-footer);
 text-decoration:none;
 }
 
